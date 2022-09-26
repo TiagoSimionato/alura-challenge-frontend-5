@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek | Login</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="../img/Logo.png" alt="Logo da Alura Books" class="header__logo">
+        <input type="text" name="search-box" id="search-box" class="header__search" placeholder="O que deseja encontrar?">
+    </header>
+
+    <section class="login">
+        <h2 class="login__title">Iniciar Sessão</h2>
+        <input type="email" name="email" id="login-email" class="login__field" placeholder="Escreva seu email">
+        <input type="password" name="password" id="login-password" class="login__field" placeholder="Escreva sua senha">
+        <button type="submit" class="login__submit btn">Entrar</button>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <img src="../img/Logo.png" alt="Logo Alura Geek">
+            <ul class="footer__content--list">
+                <li class="footer__content--item"><a href="#" class="footer__content--link">Quem somos nós</a></li>
+                <li class="footer__content--item"><a href="#" class="footer__content--link">Política de privacidade</a></li>
+                <li class="footer__content--item"><a href="#" class="footer__content--link">Programa de fidelidade</a></li>
+                <li class="footer__content--item"><a href="#" class="footer__content--link">Nossas lojas</a></li>
+                <li class="footer__content--item"><a href="#" class="footer__content--link">Quero ser franqueado</a></li>
+                <li class="footer__content--item"><a href="#" class="footer__content--link">Anuncie aqui</a></li>
+            </ul>
+            
+            <form action="" class="contact">
+                <h2 class="contact__title">Fale Conosco</h2>
+                <input type="text" name="name" class="contact__name" placeholder="Nome">
+                <!--<label for="name">Nome</label>-->
+                <textarea name="msg" id="contact-msg" cols="30" rows="10" class="contact__msg" placeholder="Escreva sua mensagem"></textarea>
+                <button type="submit" class="contact__submit btn">Enviar mensagem</button>
+            </form>
+        </div>
+
+        <div class="footer__copyright">Desenvolvido por Tiago Henrique Simionato Machado<br>
+        2022</div>
+    </footer>
+</body>
+</html>

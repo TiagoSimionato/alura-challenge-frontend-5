@@ -37,3 +37,7 @@
     text-decoration: none;
     width: 182px;
 }
+
+.header__login-btn:hover {
+    background-color: var(--analogous);
+}

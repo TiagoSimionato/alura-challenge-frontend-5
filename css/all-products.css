@@ -1,0 +1,20 @@
+.all-products {
+    background-color: var(--darkerbg);
+    padding: 130px 375px 64px 375px;
+    box-sizing: border-box;
+}
+
+.all-products__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.all-products__list li {
+    margin-bottom: 3rem;
+}
+
+.all-products__button {
+    margin-right: 1rem;
+    text-decoration: none;
+}

@@ -3,12 +3,22 @@
 @import url(header.css);
 @import url(banner.css);
 @import url(products.css);
+@import url(footer.css);
+
+@import url(login.css);
+
+@import url(all-products.css);
 
 :root {
     /*COLORS*/
+    --analogous: #D4E4FA;
     --background: #fff;
+    --black: #464646;
+    --darkerbg: #E5E5E5;
+    --footerbg: #EAF2FD;
     --gray: #A2A2A2;
     --light-gray: #F5F5F5;
+    --light-primary: #5595E9;
     --primary-color: #2A7AE4;
     --white: #fff;
 
@@ -17,11 +27,21 @@
 }
 
 body {
+    align-items: center;
     background-color: var(--background);
-    font-style: var(--main-font);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-family: var(--main-font);
     font-size: 16px;
     font-weight: 400;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.btn:hover {
+    background-color: var(--light-primary);
 }
