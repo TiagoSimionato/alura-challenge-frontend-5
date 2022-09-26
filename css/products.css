@@ -1,0 +1,8 @@
+.products__list {
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    margin: 0.5rem;
+}
