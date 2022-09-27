@@ -1,0 +1,30 @@
+.product-showcase {
+    background-color: var(--darkerbg);
+    display: flex;
+    padding: 4rem 12rem;
+    margin-bottom: 4rem;
+}
+
+.showcase__container {
+    margin: auto 0;
+    padding: 0 2rem;
+}
+
+.showcase__img {
+    height: 403px;
+    width: 560px;
+}
+
+.showcase__name {
+    font-size: 3.25rem;
+    font-weight: 500;
+}
+
+.showcase__price {
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.showcase__description {
+
+}

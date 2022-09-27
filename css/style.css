@@ -9,6 +9,10 @@
 
 @import url(all-products.css);
 
+@import url(form.css);
+
+@import url(showcase.css);
+
 :root {
     /*COLORS*/
     --analogous: #D4E4FA;
@@ -38,6 +42,7 @@ body {
 
 .btn {
     background-color: var(--primary-color);
+    border: none;
     color: var(--white);
     padding: 1rem;
 }

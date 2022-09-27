@@ -1,5 +1,6 @@
 .products {
     margin-bottom: 3rem;
+    transform: scale(1);
 }
 
 .top-container {
