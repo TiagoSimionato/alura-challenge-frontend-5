@@ -35,6 +35,7 @@
 .products__list {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .product {
@@ -81,6 +82,27 @@
     }
 
     .products__item:nth-child(4) .product {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .products {
+        padding: 0 1rem;
+    }
+
+    .products__list {
+        align-items: center;
+    }
+    .products__item {
+        margin: auto;
+    }
+
+    .product__img {
+        width: 156px;
+    }
+
+    .products__item:nth-child(2n) .product {
         margin-right: 0;
     }
 }

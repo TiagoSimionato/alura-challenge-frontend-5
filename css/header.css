@@ -44,6 +44,10 @@
     background-color: var(--analogous);
 }
 
+span.search {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .header {
         width: 92.7%;
@@ -54,8 +58,8 @@
     }
 
     .header__logo {
-        transform: scale(0.8);
         margin-right: 0.5rem;
+        width: 100px;
     }
 
     .header__search {
@@ -64,5 +68,31 @@
 
     .header__login-btn {
         width: 166px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header__logo {
+        margin: 0;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .header__login-btn {
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        width: 133px;
+    }
+
+    span.search {
+        background-image: url(../img/vector.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        height: 17px;
+        width: 17px;
     }
 }

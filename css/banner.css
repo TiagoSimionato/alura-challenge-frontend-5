@@ -3,9 +3,8 @@
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    height: 352px;
     margin-bottom: 4rem;
-    padding: 9.5rem;
+    padding: 9.375rem 0 2rem 9.5rem;
     width: 100%;
 }
 
@@ -32,6 +31,21 @@
 
 @media screen and (max-width: 768px) {
     .banner {
-        padding: 10rem 2rem 0;
+        padding: 10rem 0 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .banner {
+        padding: 4.875rem 0 1rem 1rem;
+    }
+
+    .banner__title {
+        font-size: 1.375rem;
+    }
+
+    .banner__text {
+        font-size: 0.875rem;
+        font-weight: 600;
     }
 }
