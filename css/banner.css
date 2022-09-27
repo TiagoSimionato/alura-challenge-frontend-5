@@ -6,7 +6,7 @@
     height: 352px;
     margin-bottom: 4rem;
     padding: 9.5rem;
-    width: 99.165vw;
+    width: 100%;
 }
 
 .banner__title {
@@ -28,4 +28,10 @@
     background-color: var(--primary-color);
     color: var(--white);
     padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 10rem 2rem 0;
+    }
 }

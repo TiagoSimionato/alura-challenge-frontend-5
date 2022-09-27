@@ -22,7 +22,7 @@
 .contact {
     display: flex;
     flex-direction: column;
-    width: 560px;
+    width: 434px;
 }
 
 .contact__title {
@@ -73,4 +73,20 @@
 .footer__copyright {
     padding: 2rem;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__content {
+        padding: 2rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 364px;
+    }
+
+    .footer__logo {
+        margin-right: 5rem;
+        margin-bottom: 1rem;
+    }
 }

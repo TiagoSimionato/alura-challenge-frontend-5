@@ -38,13 +38,18 @@
 }
 
 .product {
-    margin: 0.5rem;
+    margin: 1rem 1rem 0 0;
+}
+
+.products__item:last-child .product {
+    margin-right: 0;
 }
 
 .product__name {
     color: var(--black);
     font-size: 0.875rem;
     font-weight: 500;
+    margin-top: 0.5rem;
 }
 
 .product__price {
@@ -56,4 +61,26 @@
     color: var(--primary-color);
     font-weight: 700;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .products {
+        padding: 0 2rem;
+    }
+
+    .products__title {
+        font-size: 1.375rem;
+    }
+
+    .products__list .products__item:nth-child(n + 5) {
+        display: none;
+    }
+
+    .product__img {
+        width: 164px;
+    }
+
+    .products__item:nth-child(4) .product {
+        margin-right: 0;
+    }
 }

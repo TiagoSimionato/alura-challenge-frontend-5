@@ -1,13 +1,18 @@
 .product-showcase {
     background-color: var(--darkerbg);
+    box-sizing: border-box;
     display: flex;
-    padding: 4rem 12rem;
+    justify-content: center;
+    padding: 4rem 0;
     margin-bottom: 4rem;
+    width: 100%;
+    align-items: center;
 }
 
 .showcase__container {
     margin: auto 0;
     padding: 0 2rem;
+    width: 560px;
 }
 
 .showcase__img {
@@ -25,6 +30,22 @@
     margin: 1rem 0;
 }
 
-.showcase__description {
+@media screen and (max-width: 768px) {
+    .product-showcase {
+        padding: 2rem;
+        margin-bottom: 1.5rem;
+    }
 
+    .showcase__container {
+        padding: 0 0 0 1rem;
+    }
+
+    .showcase__img {
+        height: fit-content;
+        width: 254px;
+    }
+
+    .showcase__name {
+        font-size: 1.375rem;
+    }
 }

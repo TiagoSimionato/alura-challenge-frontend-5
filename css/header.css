@@ -14,7 +14,8 @@
     background-color: var(--light-gray);
     border: none;
     border-radius: 20px;
-    height: 20px;
+    box-sizing: border-box;
+    height: 40px;
     margin-right: auto;
     padding: 0.5rem 1rem;
     width: 393px;
@@ -31,6 +32,7 @@
 .header__login-btn {
     background-color: transparent;
     border: 1px solid var(--primary-color);
+    box-sizing: border-box;
     color: var(--primary-color);
     padding: 1rem;
     text-align: center;
@@ -40,4 +42,27 @@
 
 .header__login-btn:hover {
     background-color: var(--analogous);
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 92.7%;
+    }
+
+    .header__link {
+        display: inline;
+    }
+
+    .header__logo {
+        transform: scale(0.8);
+        margin-right: 0.5rem;
+    }
+
+    .header__search {
+        width: 272px;
+    }
+
+    .header__login-btn {
+        width: 166px;
+    }
 }
