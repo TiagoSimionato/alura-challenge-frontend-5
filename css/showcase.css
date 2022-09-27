@@ -49,3 +49,19 @@
         font-size: 1.375rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .product-showcase {
+        flex-direction: column;
+        padding: 0 0 2rem 0;
+    }
+
+    .showcase__img {
+        width: 100%;
+    }
+
+    .showcase__container {
+        padding: 1rem;
+        width: auto;
+    }
+}

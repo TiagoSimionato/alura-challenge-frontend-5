@@ -71,7 +71,7 @@ span.search {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
     .header__logo {
         margin: 0;
     }
@@ -81,9 +81,8 @@ span.search {
     }
 
     .header__login-btn {
-        height: 40px;
-        line-height: 40px;
-        padding: 0;
+        font-size: 14px;
+        padding: 1rem;
         width: 133px;
     }
 
