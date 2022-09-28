@@ -6,9 +6,5 @@ consoleScroller.addEventListener('click', () => {
 });
 
 searchElement.addEventListener('change', () => {
-    window.alert('Isso não faz nada!' + screen.width);
-});
-
-searchElement.addEventListener('onkeydown', () => {
-    window.alert('Isso não faz nada!' + screen.width);
+    window.alert('Isso não faz nada!');
 });
