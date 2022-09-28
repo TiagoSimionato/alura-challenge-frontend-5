@@ -24,6 +24,10 @@
     text-decoration: none;
 }
 
+.products__button:hover {
+    text-decoration: underline;
+}
+
 .products__button::after {
     content: "";
     background: url(../img/right_arrow.svg);
@@ -60,6 +64,10 @@
     color: var(--primary-color);
     font-weight: 700;
     text-decoration: none;
+}
+
+.product__link:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
