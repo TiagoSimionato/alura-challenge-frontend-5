@@ -6,5 +6,5 @@ consoleScroller.addEventListener('click', () => {
 });
 
 searchElement.addEventListener('change', () => {
-    window.alert('Isso não faz nada!');
+    window.alert('Isso não faz nada!' + screen.width);
 });
